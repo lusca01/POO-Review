@@ -7,17 +7,15 @@ public class APP {
 
         Pessoa pessoa1 = new Pessoa();
 
-        pessoa1.nome = "Lucas";
-        pessoa1.idade = 20;
+        pessoa1.setNome("Lucas");
+        pessoa1.setIdade(20);
 
-        System.out.println("O nome da pessoa 1 é -> " + pessoa1.nome);
+        System.out.println("O nome da pessoa 1 é -> " + pessoa1.getNome());
 
         Pessoa pessoa2 = new Pessoa();
 
-        pessoa2.nome = "Piguineu";
-        pessoa2.idade = 35;
-
-        System.out.println(pessoa2.idade);
+        pessoa2.setNome("Piguineu");
+        pessoa2.setIdade(35);
 
         Carro meuCarro = new Carro();
         meuCarro.ano = 2024;
