@@ -17,12 +17,14 @@ public class APP {
         pessoa2.setNome("Piguineu");
         pessoa2.setIdade(35);
 
+        Carro meuCarro1 = new Carro("Golf", 2023, "Chumbo");
         Carro meuCarro = new Carro();
-        meuCarro.ano = 2024;
-        meuCarro.modelo = "Golf";
-        meuCarro.cor = "Chumbo";
+        meuCarro.setAno(2024);
+        meuCarro.setModelo("Golf");
+        meuCarro.setCor("Chumbo");
 
-        System.out.println("Ano -> " + meuCarro.ano + " | Modelo -> " + meuCarro.modelo + " | Cor -> " + meuCarro.cor);
+        System.out.println("Ano -> " + meuCarro.getAno() + " | Modelo -> " + meuCarro.getModelo() + " | Cor -> " + meuCarro.getCor());
+        System.out.println("Ano -> " + meuCarro1.getAno() + " | Modelo -> " + meuCarro1.getModelo() + " | Cor -> " + meuCarro1.getCor());
 
     }
 
